@@ -45,3 +45,7 @@ kubectl get deployments --namespace gocd
 The GoCD server starts with a sample "Hello World" pipeline that looks like:
 
 ![](../images/gocd-helm-chart/gocd_dashboard_with_sample_pipeline.png)
+
+If this does NOT happen, use Kubernetes documentation to troubleshoot --
+https://kubernetes.io/docs/tasks/debug-application-cluster/debug-application/
+
